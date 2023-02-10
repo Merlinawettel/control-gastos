@@ -32,6 +32,7 @@ const Gasto = ({gasto, setGastosEditar, eliminarGasto}) => {
     const leadingActions = () => ( 
       <LeadingActions>
         <SwipeAction  onClick= {() => setGastosEditar(gasto)}>
+
           Editar 
          
         </SwipeAction>

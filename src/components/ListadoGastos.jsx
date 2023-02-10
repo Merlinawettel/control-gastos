@@ -3,7 +3,7 @@ import Gasto from './Gasto'
 
 const ListadoGastos = ({
         gastos, 
-        setGastoEditar, 
+        setGastosEditar, 
         eliminarGasto,
         filtro, 
         gastosFiltrados
@@ -19,7 +19,7 @@ const ListadoGastos = ({
                             <Gasto 
                                 key={gasto.id}
                                 gasto={gasto}
-                                setGastoEditar={setGastoEditar}
+                                setGastosEditar={setGastosEditar}
                                 eliminarGasto={eliminarGasto}
                             />
                         ))}
@@ -31,7 +31,7 @@ const ListadoGastos = ({
                             <Gasto 
                                 key={gasto.id}
                                 gasto={gasto}
-                                setGastoEditar={setGastoEditar}
+                                setGastosEditar={setGastosEditar}
                                 eliminarGasto={eliminarGasto}
                             />
                         ))}
